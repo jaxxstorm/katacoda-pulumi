@@ -6,6 +6,11 @@
         "course_id": "get-started",
         "title": "Getting started with Pulumi",
         "description": "Download Pulumi & login to the backend"
+      },
+      {
+          "course_id": "kubernetes-typescript",
+          "title": "Manage Kubernetes with TypeScript",
+          "description": "Manage Kubernetes resources with TypeScript"
       }
   ]
 }
