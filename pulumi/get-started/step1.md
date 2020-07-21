@@ -10,7 +10,7 @@ This should automatically detect your operating system and install Pulumi to `~/
 
 Next, you'll need to make sure this directory is in your `$PATH`. Run the following command:
 
-`export PATH=$PATH:~/.bin/pulumi`{{execute}}
+`export PATH=$PATH:~/.pulumi/bin`{{execute}}
 
 ## Check your installation
 
@@ -20,6 +20,6 @@ You should now have a few different programs available to use. Make sure they wo
 
 Should return the version of Pulumi you have installed
 
-`pulumi-language-go --help`
+`pulumi-language-go --help`{{execute}}
 
 Should return some help text!
