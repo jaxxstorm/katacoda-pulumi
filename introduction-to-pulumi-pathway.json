@@ -6,6 +6,11 @@
       "course_id": "install",
       "title": "Install Pulumi",
       "description": "Install the Pulumi CLI & Login to the backend"
+    },
+    {
+      "course_id": "first-resource-typescript",
+      "title": "Create your first Pulumi resource (TypeScript)",
+      "description": "Create a simple Pulumi resource with Docker & TypeScript"
     }
   ]
 }
