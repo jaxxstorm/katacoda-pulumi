@@ -32,7 +32,9 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "install.sh"
+      "foreground": "login.sh",
+      "background": "install.sh",
+      "verify.sh": "verify.sh"
     },
     "finish": {
       "text": "finish.md"
