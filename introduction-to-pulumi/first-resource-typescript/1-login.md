@@ -6,6 +6,10 @@ Let's get logged in!
 
 ## Login
 
+Login to pulumi using the `login` command:
+
+`pulumi login`{{excute}}
+
 Your terminal window should be prompting you for a token. Visit [this page](https://app.pulumi.com/account/tokens) to create a token.
 
 Click the blue `NEW ACCESS TOKEN` button in the top right of the main window.
