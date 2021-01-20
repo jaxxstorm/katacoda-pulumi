@@ -32,8 +32,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "foreground": "setup.sh",
-      "verify.sh": "verify.sh"
+      "foreground": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
