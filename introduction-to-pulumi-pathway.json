@@ -5,7 +5,7 @@
     {
       "course_id": "install",
       "title": "Install Pulumi",
-      "description": "Install the Pulumi CLI"
+      "description": "Install the Pulumi CLI & Login to the backend"
     }
   ]
 }
