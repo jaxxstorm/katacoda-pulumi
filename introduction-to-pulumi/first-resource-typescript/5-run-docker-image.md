@@ -4,7 +4,7 @@ Now we have a Docker image built, we want to _run_ the container so we can view 
 
 Let's update our Pulumi program to actually run the container we built:
 
-<pre class="file" data-filename="my-first-app/index.ts" data-target="replace">
+<pre class="file" data-filename="my-first-app/index.ts" data-target="append">
 const container = new docker.Container('my-first-app', {
     image: image.baseImageName,
     ports: [{
@@ -36,10 +36,10 @@ export const containerId = container.id
 
 You'll notice that `id` is a property on the `container` constant, take a look at some of the other outputs from `container` in the vscode intellisense.
 
-Now we've exported the ID, let's rerun our `up` to register it in pulumi:
+Now we've exported the ID, let's rerun our `up` to register it in Pulumi:
 
 `pulumi up`{{execute}}
 
 You can use this value in scripts, let's examine our running container:
 
-`docker stats $(pulumi stack output containerIdd) --no-stream`
+`docker stats $(pulumi stack output containerId) --no-stream`

@@ -41,6 +41,8 @@
   },
   "environment": {
         "hidefinish": true,
+        "showdashboard": true,
+        "dashboards": [{"name": "my-first-app", "port": 3000}],
         "uieditorpath": "/root/src",
         "uilayout": "vscode-terminal-split"
   },

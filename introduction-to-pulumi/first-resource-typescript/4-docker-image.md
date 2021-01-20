@@ -21,9 +21,10 @@ Now, we can define our Docker Image! Inside our Pulumi program, let's populate t
 import * as pulumi from "@pulumi/pulumi";
 import * as docker from "@pulumi/docker";
 
+const stack = pulumi.getStack();
 const imageName = 'my-first-app'
 
-const image = new docker.Image('my-first-app', {
+const image = new docker.Image(imageName, {
     build: './app',
     imageName: `${imageName}:${stack}`,
     skipPush: true,
@@ -40,6 +41,6 @@ This will take a few moments, as behind the scenes we're pulling a Docker image 
 
 We should probably verify that Pulumi did what we asked, for our own peace of mind. We can list the Docker images to verify it actually created an image:
 
-`docker images`{{execute}}
+`docker images my-first-app`{{execute}}
 
 Awesome, our first Pulumi resource is a Docker image!
