@@ -1,6 +1,6 @@
 {
-  "title": "Install Pulumi",
-  "description": "Install the Pulumi CLI",
+  "title": "Install Pulumi & Login",
+  "description": "Install the Pulumi CLI & Login to the backend",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
