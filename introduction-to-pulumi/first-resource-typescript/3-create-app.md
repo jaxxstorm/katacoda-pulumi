@@ -33,7 +33,7 @@ We've installed [express.js](https://expressjs.com/) here, which we'll use to de
 
 Inside our app directory, let's create a small webserver that says "Hello, world!" to us.
 
-<pre class="file" data-filename="pulumi-docker/app/index.ts" data-target="replace">
+<pre class="file" data-filename="my-first-app/app/index.ts" data-target="replace">
 import express = require('express');
 import morgan = require('morgan');
 
@@ -58,7 +58,7 @@ Excellent, nice and simple!
 
 Now we have an application, let's create a `Dockerfile` to be built by our Pulumi program:
 
-<pre class="file" data-filename="pulumi-docker/app/Dockerfile" data-target="replace">
+<pre class="file" data-filename="my-first-app/app/Dockerfile" data-target="replace">
 FROM node:12
 
 WORKDIR /app

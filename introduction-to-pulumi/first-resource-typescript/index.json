@@ -45,6 +45,6 @@
         "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "ubuntu:2004"
   }
 }
