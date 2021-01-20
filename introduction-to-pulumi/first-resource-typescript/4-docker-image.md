@@ -34,6 +34,8 @@ We can run the `up` command now to build this image:
 
 `pulumi up`{{execute}}
 
+This will take a few moments, as behind the scenes we're pulling a Docker image and building a new one.
+
 ## View your Built Image
 
 We should probably verify that Pulumi did what we asked, for our own peace of mind. We can list the Docker images to verify it actually created an image:
