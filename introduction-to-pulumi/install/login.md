@@ -16,4 +16,26 @@ Logging in is as simple as running the following command:
 
 If you're running these commands locally on your laptop, pulumi will open a new browser window and prompt you to login. In this interactive tutorial, we'll need to generate a login key.
 
-Open the following page:
+You'll see pulumi prompt you to open a [page](https://app.pulumi.com/account/tokens) to create a token.
+
+Click the blue `NEW ACCESS TOKEN` button in the top right of the main window.
+
+![NEW ACCESS TOKEN](./assets/new-access-token.png)
+
+Give your token a name, for example `katacoda`:
+
+![Name Token](./assets/name-token.png)
+
+Then copy the token generated into using the clipboard icon.
+
+[!Copy Token](./assets/copy-token.png)
+
+You should now be logged in to the Pulumi SaaS.
+
+## Verify
+
+Verify you're logged in correctly by using the `whoami` command:
+
+`pulumi whoami`{{execute}}
+
+It should return your pulumi username. Congratulations, you're now ready to use Pulumi!
