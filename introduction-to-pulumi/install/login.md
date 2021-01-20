@@ -38,4 +38,4 @@ Verify you're logged in correctly by using the `whoami` command:
 
 `pulumi whoami`{{execute}}
 
-It should return your pulumi username. Congratulations, you're now ready to use Pulumi!
+It should return your pulumi username.
