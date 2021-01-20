@@ -28,7 +28,7 @@ Give your token a name, for example `katacoda`:
 
 Then copy the token generated into using the clipboard icon.
 
-[!Copy Token](./assets/copy-token.png)
+![Copy Token](./assets/copy-token.png)
 
 You should now be logged in to the Pulumi SaaS.
 
