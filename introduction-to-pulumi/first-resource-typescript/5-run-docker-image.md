@@ -42,4 +42,8 @@ Now we've exported the ID, let's rerun our `up` to register it in Pulumi:
 
 You can use this value in scripts, let's examine our running container:
 
-`docker stats $(pulumi stack output containerId) --no-stream`
+`docker stats $(pulumi stack output containerId) --no-stream`{{execute}}
+
+## View your app
+
+You can now view your running application by clicking the `my-first-app` tab next to the terminal pane, or clicking [here](https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/)
