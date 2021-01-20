@@ -4,7 +4,7 @@ Pulumi creates infrastructure by making calls directly to cloud provider APIs. Y
 
 ## Create an account
 
-Pulumi offers free state storage for individuals, and paid plans for teams and enterprise customers. Before you login, you'll need to sign up for a Pulumi account [here](https://app.pulumi.com/).
+Pulumi offers free state storage for individuals, and paid plans for teams and enterprise customers. Before you login, you'll need to sign up for a Pulumi account [here](https://app.pulumi.com/?utm_source=katacoda).
 
 Once you've done that, you can login and get started with Pulumi!
 

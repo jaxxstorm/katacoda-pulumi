@@ -1,5 +1,5 @@
 {
-  "title": "Create your first Pulumi Resource (Typescript)",
+  "title": "Create your first Pulumi Resource (TypeScript)",
   "description": "Create a Docker Image and Container in TypeScript with Pulumi",
   "difficulty": "Beginner",
   "time": "15 minutes",
