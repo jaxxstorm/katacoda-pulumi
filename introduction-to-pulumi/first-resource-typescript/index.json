@@ -1,0 +1,49 @@
+{
+  "title": "Create your first Pulumi Resource (Typescript)",
+  "description": "Create a Docker Image and Container in TypeScript with Pulumi",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Login to Pulumi",
+        "text": "1-login.md"
+      },
+      {
+        "title": "Create a Project",
+        "text": "2-new-project.md"
+      },
+      {
+        "title": "Create your Application",
+        "text": "3-create-app.md"
+      },
+      {
+        "title": "Build your Docker Image",
+        "text": "4-docker-image.md"
+      },
+      {
+        "title": "Run your Docker Image",
+        "text": "5-run-docker-image.md"
+      },
+      {
+        "title": "Teardown",
+        "text": "6-teardown.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "install.sh",
+      "code": "login.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+        "hidefinish": true,
+        "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}
