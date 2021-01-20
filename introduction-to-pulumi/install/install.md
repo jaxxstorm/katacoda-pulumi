@@ -18,9 +18,11 @@ Once Pulumi is installed, you'll need to add it to your `$PATH`.
 
 ## Add the Pulumi directory to your `$PATH`
 
-Now, let's run the following command to ensure the `pulumi` binary is available:
+Now you've installed the pulumi binary, you'll need to make sure it's available in your `$PATH`.
 
-`export PATH=$PATH:$HOME/.pulumi/bin`{{execute}}
+The easiest way to do that is to restart your current shell:
+
+`exec bash`{{execute}}
 
 Excellent! Now let's see if we can get the current version of our installed binary
 
