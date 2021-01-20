@@ -1,0 +1,11 @@
+{
+  "title": "Introduction to Pulumi",
+  "description": "A simple guide to your first Pulumi program",
+  "courses": [
+    {
+      "course_id": "install",
+      "title": "Install Pulumi",
+      "description": "Install the Pulumi CLI"
+    }
+  ]
+}

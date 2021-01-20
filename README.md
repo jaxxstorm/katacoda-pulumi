@@ -1,2 +1,0 @@
-# katacoda-pulumi
-Pulumi + Katacoda

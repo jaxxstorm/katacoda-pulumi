@@ -1,15 +1,17 @@
 {
-  "title": "Get started with Pulumi",
-  "description": "Learn how to install Pulumi and login to a backend",
+  "title": "Install Pulumi",
+  "description": "Install the Pulumi CLI",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Install Pulumi",
-        "text": "step1.md"
+        "title": "Install Pulumi",
+        "text": "install.md"
       },
       {
-        "title": "Step 2 - Login via the CLI",
-        "text": "step2.md"
+          "title": "Login to Pulumi",
+          "text": "login.md"
       }
     ],
     "intro": {
