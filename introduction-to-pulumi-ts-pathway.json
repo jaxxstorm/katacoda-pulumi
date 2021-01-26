@@ -1,6 +1,6 @@
 {
   "title": "Introduction to Pulumi with TypeScript",
-  "description": "A simple guide to your first Pulumi program with the TypeScript Programming langiage",
+  "description": "A simple guide to your first Pulumi program with the TypeScript Programming language",
   "courses": [
     {
       "course_id": "install",
