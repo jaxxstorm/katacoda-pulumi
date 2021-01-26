@@ -1,6 +1,6 @@
 {
-  "title": "Introduction to Pulumi",
-  "description": "A simple guide to your first Pulumi program",
+  "title": "Introduction to Pulumi with TypeScript",
+  "description": "A simple guide to your first Pulumi program with the TypeScript Programming langiage",
   "courses": [
     {
       "course_id": "install",
@@ -9,7 +9,7 @@
     },
     {
       "course_id": "first-resource-typescript",
-      "title": "Create your first Pulumi resource (TypeScript)",
+      "title": "Create your first Pulumi resource",
       "description": "Create a simple Pulumi resource with Docker & TypeScript"
     }
   ]
