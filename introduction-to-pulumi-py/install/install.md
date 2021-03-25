@@ -32,6 +32,6 @@ Run the `pulumi version` command to ensure we have the right version of pulumi i
 
 `pulumi version`{{execute}}
 
-You should see a version returned, like `v2.17.0`. The version number will changed, as we release new versions of pulumi every 2 weeks!
+You should see a version returned, like `v2.17.0`. The version number may have changed, as we release new versions of pulumi every 2 weeks!
 
 
