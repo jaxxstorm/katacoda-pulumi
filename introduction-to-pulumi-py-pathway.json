@@ -1,0 +1,16 @@
+{
+  "title": "Introduction to Pulumi with Python",
+  "description": "A simple guide to your first Pulumi program with the Python Programming language",
+  "courses": [
+    {
+      "course_id": "install",
+      "title": "Install Pulumi",
+      "description": "Install the Pulumi CLI & Login to the backend"
+    },
+    {
+      "course_id": "first-resource-python",
+      "title": "Create your first Pulumi resource",
+      "description": "Create a simple Pulumi resource with Docker & Python"
+    }
+  ]
+}

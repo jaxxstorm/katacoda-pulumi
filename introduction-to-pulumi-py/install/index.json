@@ -1,0 +1,30 @@
+{
+  "title": "Install Pulumi & Login",
+  "description": "Install the Pulumi CLI & Login to the backend",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install Pulumi",
+        "text": "install.md"
+      },
+      {
+          "title": "Login to Pulumi",
+          "text": "login.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
