@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Reload the shell
-exec bash
+export PATH=${PATH}:${HOME}/.pulumi/bin
