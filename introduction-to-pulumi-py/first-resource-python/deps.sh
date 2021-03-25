@@ -4,3 +4,6 @@ apt-get update && apt-get install python3-venv -y
 
 # Install pulumi CLI
 curl -fsSL https://get.pulumi.com | sh
+
+# reload shell
+exec bash
