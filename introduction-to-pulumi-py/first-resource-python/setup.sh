@@ -14,9 +14,9 @@ spin()
   done
 }
 
-echo 
-echo
-echo
+echo "\n"
+echo "\n"
+echo "\n"
 
 echo "Configuring environment"
 
