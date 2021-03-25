@@ -14,10 +14,6 @@ spin()
   done
 }
 
-echo "\n"
-echo "\n"
-echo "\n"
-
 echo "Configuring environment"
 
 # Start the Spinner:
