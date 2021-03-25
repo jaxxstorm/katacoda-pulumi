@@ -14,6 +14,12 @@ spin()
   done
 }
 
+echo 
+echo
+echo
+
+echo "Configuring environment"
+
 # Start the Spinner:
 spin &
 # Make a note of its Process ID (PID):
@@ -22,7 +28,7 @@ SPIN_PID=$!
 # Kill the spinner on any signal, including our own exit.
 trap "kill -9 $SPIN_PID" `seq 0 15`
 
-while [ ! -f ${HOME}/.pulumi/bin ]
+while [ ! -x ${HOME}/.pulumi/bin/pulumi ]
 do
   sleep 2
 done
