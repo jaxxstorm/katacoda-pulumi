@@ -1,32 +1,39 @@
 #!/bin/bash
 
-show_progress()
+spin()
 {
-  echo -n "Starting"
-  local -r pid="${1}"
-  local -r delay='0.75'
-  local spinstr='\|/-'
-  local temp
-  echo "Started"
-  echo -n "Configuring"
-  while true; do
-    sudo grep -i "done" PATH=${PATH}:${HOME}/.pulumi/bin &> /dev/null
-    if [[ "$?" -ne 0 ]]; then
-      temp="${spinstr#?}"
-      printf " [%c]  " "${spinstr}"
-      spinstr=${temp}${spinstr%"${temp}"}
-      sleep "${delay}"
-      printf "\b\b\b\b\b\b"
-    else
-      break
-    fi
+  spinner="/|\\-/|\\-"
+  while :
+  do
+    for i in `seq 0 7`
+    do
+      echo -n "${spinner:$i:1}"
+      echo -en "\010"
+      sleep 1
+    done
   done
-  printf "    \b\b\b\b"
-  echo ""
-  echo "Configured"
 }
 
-show_progress
+# Start the Spinner:
+spin &
+# Make a note of its Process ID (PID):
+SPIN_PID=$!
+
+# Kill the spinner on any signal, including our own exit.
+trap "kill -9 $SPIN_PID" `seq 0 15`
+
+while [ ! -f ${HOME}/.pulumi/bin ]
+do
+  sleep 2
+done
+
+echo "Finished."
+
+# If the script is going to exit here, there is nothing to do.
+# The trap above will kill the spinner when this script exits.
+# Otherwise, if the script is going to do more stuff, you can
+# kill the spinner now:
+kill -9 $SPIN_PID
 
 # Reload the shell
 export PATH=${PATH}:${HOME}/.pulumi/bin
