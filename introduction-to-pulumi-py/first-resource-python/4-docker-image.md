@@ -6,6 +6,12 @@ We'll need to make sure we have the [Pulumi Docker](https://www.pulumi.com/docs/
 
 We can take care of this by installing the SDK using [Pip](https://pypi.org/project/pip/) a package manager for Python programs.
 
+We need to install the dependency inside our [virtualenv](https://virtualenv.pypa.io/en/latest/), so first, we'll activate it:
+
+`source venv/bin/activate`{{execute}}
+
+and then, we'll install the pulumi docker SDK
+
 `pip3 install pulumi_docker`{{execute}}
 
 This will install:
@@ -26,7 +32,7 @@ image_name = "my-first-app"
 
 # build our image!
 image = docker.Image(image_name,
-              build=DockerBuild(context="app"),
+              build=docker.DockerBuild(context="app"),
               image_name=f"{image_name}:{stack}",
               skip_push=True)
 </pre>

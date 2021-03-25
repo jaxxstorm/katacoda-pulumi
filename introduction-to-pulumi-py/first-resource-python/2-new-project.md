@@ -32,7 +32,7 @@ We can examine the contents of this directory too! There are some interesting fi
 * **`__main__.py`**: your program's main entrypoint file
 * **`requirements.txt`**: your project's Python dependency information
 * **`Pulumi.yaml`**: your project's metadata, containing its name and language
-* **`venv**: a [virtualenv](https://pypi.org/project/virtualenv/) for your project
+* **`venv`**: a [virtualenv](https://pypi.org/project/virtualenv/) for your project
 
 Run `cat __main__.py`{{execute}} to see the contents of your project's empty program:
 
