@@ -2,7 +2,7 @@ Now we have a Docker image built, we want to _run_ the container so we can view 
 
 ## Run a Container
 
-Let's update our Pulumi program to actually run the container we built:
+Let's update our Pulumi program to actually run the container we built. Modify your `__main__.py` and add the following:
 
 <pre class="file" data-filename="my-first-app/__main__.py" data-target="append">
 container = docker.Container('my-first-app',
@@ -30,7 +30,7 @@ In the previous step, we talked about _Outputs_, which are values from Pulumi re
 
 Sometimes, we want to _export_ these outputs so that we can use them in other programs, like shell scripts.
 
-To do that, we'll use the javascript `export` keyword. Add the following to your Pulumi program
+To do that, we'll use `export`. Add the following to your Pulumi program
 
 <pre class="file" data-filename="my-first-app/__main__.py" data-target="append">
 pulumi.export("containerId", container.id)

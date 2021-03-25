@@ -10,7 +10,7 @@ Create a new directory to store our application:
 
 ## Define our application
 
-Inside our app directory, let's create a small webserver that says "Hello, world!" to us.
+Inside our app directory, let's create a small webserver that says "Hello, world!" to us We'll put this in a file, `__main__.py`.
 
 <pre class="file" data-filename="my-first-app/app/__main__.py" data-target="replace">
 import http.server

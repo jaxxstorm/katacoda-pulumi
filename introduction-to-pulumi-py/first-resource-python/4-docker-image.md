@@ -21,7 +21,7 @@ This will install:
 
 ## Define your Docker Image
 
-Now, we can define our Docker Image! Inside our Pulumi program, let's populate the `index.ts` with our Docker Image code
+Now, we can define our Docker Image! Inside our Pulumi program, let's populate the `__main__.py` with our Docker Image code
 
 <pre class="file" data-filename="my-first-app/__main__.py" data-target="replace">
 import pulumi
